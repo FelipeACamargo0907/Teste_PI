@@ -1,0 +1,34 @@
+cat <<EOL > .gitignore
+# Compiled output
+dist/
+build/
+
+# Dependencies
+node_modules/
+
+# Angular specific
+.angular/
+.angular-cache/
+
+# Environment
+src/environments/environment*.ts
+
+# Logs and debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+EOL
